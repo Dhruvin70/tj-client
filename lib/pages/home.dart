@@ -52,32 +52,6 @@ class Home extends StatelessWidget {
         return Column(
           children: [
 
-            SizedBox(
-              height: 120,
-              child: ListView.builder(
-                scrollDirection: Axis.horizontal,
-                itemCount: 7, // Change itemCount to match the number of items
-                itemBuilder: (context, index) {
-                  return Padding(
-                    padding: EdgeInsets.all(6),
-                    child: Chip(
-                      label: Image.network(
-                        const [
-                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F160050C01_RGB.png?alt=media&token=9e652a6a-8421-4686-8744-958795ff5634",
-                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F161198C01_RGB.jpg?alt=media&token=cf73b381-cd6e-4a60-9005-2b86df53a352",
-                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F163100C01_RGB.png?alt=media&token=f7c4ceec-3fc4-4515-8565-f5564ef757b4",
-                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F160050C01_RGB.png?alt=media&token=9e652a6a-8421-4686-8744-958795ff5634",
-                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F192634C01_RGB.png?alt=media&token=9cb1f348-cc8a-402c-ad70-9bb5ed91f947",
-                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F193145C01_RGB.jpg?alt=media&token=87c91711-fc7f-4000-8958-5d313342e010",
-                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F193000C01_RGB.png?alt=media&token=0c13d395-f5ee-4107-8325-9f9ec2246cab"
-
-                        ][index],
-                      ),
-                    ),
-                  );
-                },
-              ),
-            ),
             Container(
               padding: const EdgeInsets.all(5),
               child: Row(
@@ -143,7 +117,34 @@ class Home extends StatelessWidget {
                         }),
                   ),
                 )
-            )
+            ) ,
+            SizedBox(
+              height: 120,
+              child: ListView.builder(
+                scrollDirection: Axis.horizontal,
+                itemCount: 7, // Change itemCount to match the number of items
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: EdgeInsets.all(6),
+                    child: Chip(
+                      label: Image.network(
+                        const [
+                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F160050C01_RGB.png?alt=media&token=9e652a6a-8421-4686-8744-958795ff5634",
+                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F161198C01_RGB.jpg?alt=media&token=cf73b381-cd6e-4a60-9005-2b86df53a352",
+                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F163100C01_RGB.png?alt=media&token=f7c4ceec-3fc4-4515-8565-f5564ef757b4",
+                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F160050C01_RGB.png?alt=media&token=9e652a6a-8421-4686-8744-958795ff5634",
+                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F192634C01_RGB.png?alt=media&token=9cb1f348-cc8a-402c-ad70-9bb5ed91f947",
+                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F193145C01_RGB.jpg?alt=media&token=87c91711-fc7f-4000-8958-5d313342e010",
+                          "https://firebasestorage.googleapis.com/v0/b/jewellery-shop-254ec.appspot.com/o/images%2F193000C01_RGB.png?alt=media&token=0c13d395-f5ee-4107-8325-9f9ec2246cab"
+
+                        ][index],
+                      ),
+                    ),
+                  );
+                },
+              ),
+            ),
+
           ],
         );
       }),
