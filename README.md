@@ -8,6 +8,7 @@ This project is a starting point for a Flutter application.
 
 ## Login Screen of App 
 -> Through Google 
+
 -> Registered User
 
 ![image](https://github.com/Dhruvin70/tj-client/assets/112979026/0729236e-555f-470f-ae91-ae14dc757f43)
@@ -21,6 +22,7 @@ This project is a starting point for a Flutter application.
 
 ## After Login
 -> It takes to Products Scree where you can see the products with minimum information 
+
 -> By clicking on the product it redirects to Product Description Screen for mor information and Buying Options
 ![image](https://github.com/Dhruvin70/tj-client/assets/112979026/abc299a9-5bea-4503-a9bc-735d05ad4984)
 
@@ -30,6 +32,7 @@ This project is a starting point for a Flutter application.
 
 ## After Clicking Buy Now
 -> It redirects to paypal payment gatway for secure payment
+
 -> Payment is done in USD
 
 ![image](https://github.com/Dhruvin70/tj-client/assets/112979026/a7149df4-bf49-4b8c-b5bf-2e97a04034d6)
