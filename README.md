@@ -12,6 +12,7 @@ This project is a starting point for a Flutter application.
 -> Registered User
 
 ![image](https://github.com/Dhruvin70/tj-client/assets/112979026/0729236e-555f-470f-ae91-ae14dc757f43)
+
 ![image](https://github.com/Dhruvin70/tj-client/assets/112979026/793da235-4397-4a99-8ab4-a6e329f49e13)
 
 ## To reset you password or forgot password click on Forgot Password.
